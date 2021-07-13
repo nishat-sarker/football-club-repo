@@ -73,7 +73,39 @@ Banner section css code start from here
 #banner .banner-img img{
     width: 100%;
 }
-
 /*--------------------------------------- 
 Banner section css code end from here 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Player-info section css code end from here 
+----------------------------------------*/
+#player-info{
+    margin: 40px 0px 110px 0px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players img{
+    width: 100%;
+}
+.player{
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.player p{
+    text-align: justify;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
+/*--------------------------------------- 
+Player-info section css code end from here 
 ----------------------------------------*/
