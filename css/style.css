@@ -1,0 +1,79 @@
+/*--------------------------------------- 
+Common Style css code start from here 
+----------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/*--------------------------------------- 
+Common Style css code end here 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Header section css code start from here 
+----------------------------------------*/
+header{
+    background-color: #2d25a0;
+    padding: 42px 0px 49px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a{
+    color: white;
+    margin-right: 30px;
+}
+nav a:hover{
+    color: #E02C6D;
+}
+.login a, .btn a{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white !important;
+}
+.login span{
+    margin-left: 8px;
+}
+/*--------------------------------------- 
+Header section css code end here 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Banner section css code start from here 
+----------------------------------------*/
+#banner-section{
+    background-color: #2d25a0;
+    padding-bottom: 169px;
+}
+#banner{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+#banner h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 72px 0px 27px 0px;
+}
+.btn span{
+    padding-right: 8px;
+}
+#banner .banner-img img{
+    width: 100%;
+}
+
+/*--------------------------------------- 
+Banner section css code end from here 
+----------------------------------------*/
