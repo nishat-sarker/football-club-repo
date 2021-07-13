@@ -30,6 +30,7 @@ nav{
 }
 nav ul li{
     display: inline-block;
+    list-style: none;
 }
 nav a{
     color: white;
@@ -108,4 +109,67 @@ Player-info section css code end from here
 }
 /*--------------------------------------- 
 Player-info section css code end from here 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Highlight section css code start from here 
+----------------------------------------*/
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 69px;
+}
+.highlight .highlight-info h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #18191F;
+    width: 86%;
+    margin-top: 60px;
+}
+.highlight .highlight-info p{
+    text-align: justify;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+}
+.highlight img{
+    width: 100%;
+}
+/*--------------------------------------- 
+Highlight section css code end here 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Footer section css code start from here 
+----------------------------------------*/
+footer{
+    text-align: center;
+    padding: 158px 0px 63px 0px;
+}
+footer img{
+    width: 30%;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 10px;
+    height: 36px;
+    width: 36px;
+    background-color: #e7e7e8;
+    vertical-align: middle;
+    border-radius: 100%; 
+
+}
+footer a{
+    color: #969bab;
+    position: relative;
+    top: 6px;
+}
+footer a:hover{
+    color: #E02C6D;
+}
+footer p{
+    font-size: 18px;
+}
+/*--------------------------------------- 
+footer section css code end from here 
 ----------------------------------------*/
