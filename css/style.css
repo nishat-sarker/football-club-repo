@@ -139,6 +139,61 @@ Highlight section css code end here
 ----------------------------------------*/
 
 /*--------------------------------------- 
+contact section css code end from here 
+----------------------------------------*/
+#contact-us{
+    padding: 120px 0px;
+}
+.contact{ 
+    display: flex;
+    justify-content: space-between;
+}
+.contact-img{
+    width: 50%;
+    margin-top: 65px;
+}
+.contact-info{
+    width: 40%;
+    background-color: #7065e6;
+    padding: 10px;
+}
+.contact-info h2{
+    color: white;
+    font-size: 44px;
+}
+.contact img{
+    width: 100%;
+}
+.contact-info input{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+}
+.contact-info textarea{
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+ button{
+    width: 100%;
+    padding: 10px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;    
+}
+/*--------------------------------------- 
+contact section css code end from here 
+----------------------------------------*/
+
+/*--------------------------------------- 
 Footer section css code start from here 
 ----------------------------------------*/
 footer{
@@ -157,7 +212,6 @@ footer ul li{
     background-color: #e7e7e8;
     vertical-align: middle;
     border-radius: 100%; 
-
 }
 footer a{
     color: #969bab;
