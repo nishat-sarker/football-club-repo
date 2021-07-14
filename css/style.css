@@ -73,7 +73,17 @@ Banner section css code start from here
 }
 #banner .banner-img img{
     width: 100%;
+    animation: slide-in 5s linear;    
 }
+@keyframes slide-in{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-right: -100%;
+    }
+}
+
 /*--------------------------------------- 
 Banner section css code end from here 
 ----------------------------------------*/
@@ -153,8 +163,8 @@ contact section css code end from here
     margin-top: 65px;
 }
 .contact-info{
-    width: 40%;
-    background-color: #7065e6;
+    width: 45%;
+    background-color: #2d25a0;
     padding: 10px;
 }
 .contact-info h2{
@@ -198,12 +208,41 @@ Footer section css code start from here
 ----------------------------------------*/
 footer{
     text-align: center;
-    padding: 158px 0px 63px 0px;
+    padding: 158px 0px 0px 0px;
 }
 footer img{
     width: 30%;
 }
-footer ul li{
+#footer-area{
+    background-color: #2d25a0;
+    padding: 30px 0px;
+}
+footer .feature{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+footer .feature h2{
+    color: #E02C6D;
+}
+footer .feature ul li{
+    list-style: none;
+}
+footer .feature ul li a{
+    color: white;
+}
+#footer-area .newsletter p{
+    color: white;
+}
+#footer-area .newsletter input{
+    padding: 10px;
+}
+#footer-area .newsletter .subscribe{
+    background-color: #E02C6D;
+    color: #ffffff;
+    border-color: #E02C6D;
+    cursor: pointer;
+}
+footer .social-media ul li{
     list-style: none;
     display: inline-block;
     margin: 30px 10px;
