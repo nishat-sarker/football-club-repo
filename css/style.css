@@ -73,7 +73,7 @@ Banner section css code start from here
 }
 #banner .banner-img img{
     width: 100%;
-    animation: slide-in 5s linear;    
+    animation: slide-in 3s linear;    
 }
 @keyframes slide-in{
     from{
@@ -262,7 +262,51 @@ footer a:hover{
 }
 footer p{
     font-size: 18px;
+    margin-top: 20px;
+}
+#down-feture ul li{
+    list-style: none;
+    display: inline-block;
+}
+#down-feture ul li span a{
+    border: none !important;
+}
+#down-feture ul li a{
+    border-left: 2px solid white;
+    padding: 0px 10px;
+    color: white;
 }
 /*--------------------------------------- 
-footer section css code end from here 
+footer section css code end here 
 ----------------------------------------*/
+
+/*--------------------------------------- 
+Media Queries css code start from here 
+----------------------------------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    header{
+        width: 1160px;
+    }
+    #banner-section{
+        width: 1160px;
+    }
+    #footer-area{
+        width: 1160px;
+    }
+    #banner{
+        grid-template-columns: repeat(1 ,1fr);
+        grid-row-gap: 90px;
+    }
+    
+    #banner .btn a{
+        vertical-align: middle;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        grid-row-gap: 90px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
